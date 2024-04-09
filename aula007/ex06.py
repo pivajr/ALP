@@ -8,7 +8,7 @@ primeiro = 0
 print(primeiro)
 segundo = 1
 for i in range(1, termo):
-    print(segundo)
+    print(f"i: {i} - Pri: {primeiro} - Seg:{segundo} ")
     terceiro = primeiro + segundo
     primeiro = segundo
     segundo = terceiro
